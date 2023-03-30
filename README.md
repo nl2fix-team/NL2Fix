@@ -4,8 +4,8 @@ This repository contains supplementary materials for our ICSE2024 submission. We
 
 ### Inluded Materials
 - `datasets/defects4j/nl2fix_dataset.json` contains the NL2Fix dataset. The dataset is a json file with issue metadata, including: issue title, issue description, the original buggy method, and the ground truth fix.
-- `embeddings/` contains the embeddings used for RQ4. The embeddings are generated using the `generate_embeddings.py` script. The embeddings are used to calculate the cosine similarity between the original buggy method and the generated patch.
-- `generated-patches/` includes the generated patches for the 283 issues in the dataset. The patches are generated using the `generate_patches.py` script. These patches are used for RQ 1-4
+- [embeddings.zip](https://zenodo.org/record/7787107#.ZCX5Gy-B19g) on zenodo contains the embeddings used for RQ4. The embeddings are generated using the `generate_embeddings.py` script. The embeddings are used to calculate the cosine similarity between the original buggy method and the generated patch.
+- [generated-patches.zip](https://zenodo.org/record/7787107#.ZCX5ni-B19h) on zenodo includes the generated patches for the 283 issues in the dataset. The patches are generated using the `generate_patches.py` script. These patches are used for RQ 1-4
 
 
 
